@@ -6,10 +6,12 @@
 <title>intellearn · Dip.EP (3) ဝင်ခွင့်စာမေးပွဲ Countdown</title>
 <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Outfit:wght@300;500;800&display=swap" rel="stylesheet">
 <style>
+@font-face{font-family:"Pyidaungsu";font-weight:400;src:local("Pyidaungsu"),local("Pyidaungsu Regular"),url("Pyidaungsu-Regular.ttf") format("truetype");font-display:swap}
+@font-face{font-family:"Pyidaungsu";font-weight:700;src:local("Pyidaungsu Bold"),url("Pyidaungsu-Bold.ttf") format("truetype");font-display:swap}
 :root{color-scheme:light;--ink:#0d3b2a;--gold:#0b7a47;--cy:#19c37d;--ch:clamp(66px,19vw,104px);
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html,body{height:100%;margin:0}
-body{background:linear-gradient(135deg,#ffffff,#e4f8ec 25%,#c8f0da 50%,#f1fcf5 75%,#ffffff);background-size:400% 400%;animation:bg 22s ease-in-out infinite;position:relative;color:var(--ink);font-family:"Padauk","Noto Sans Myanmar","Myanmar Text",sans-serif;overflow-x:hidden;overflow-y:auto}
+body{background:linear-gradient(135deg,#ffffff,#e4f8ec 25%,#c8f0da 50%,#f1fcf5 75%,#ffffff);background-size:400% 400%;animation:bg 22s ease-in-out infinite;position:relative;color:var(--ink);font-family:"Pyidaungsu","Padauk","Noto Sans Myanmar","Myanmar Text",sans-serif;overflow-x:hidden;overflow-y:auto}
 @keyframes bg{0%,100%{background-position:0 0}50%{background-position:100% 100%}}
 .blob{position:fixed;z-index:0;border-radius:50%;filter:blur(70px);pointer-events:none;opacity:.55;animation:drift 16s ease-in-out infinite alternate}
 .b1{width:320px;height:320px;background:#8be28b;top:-100px;right:-80px}
